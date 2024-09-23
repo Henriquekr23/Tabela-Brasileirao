@@ -1,0 +1,95 @@
+body{
+    vertical-align: middle;
+}
+
+div{
+    display: flex;
+}
+
+.col_posicao{
+    width: 50px;
+}
+
+.tabela_esquerda{
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    font-size: 17px;
+    min-width: 100px;
+    width: 400px;
+}
+
+.tabela_head{
+    font-family: Arial;
+    height: 40px;
+    border-right: 0px;
+    border-bottom: solid 1px lightgray;
+}
+
+.tabela_linha_esquerda{
+    text-align: center;
+    border-right: 0px;
+    border-bottom: solid 1px lightgray;
+    height: 55px;
+}
+
+.tabela_posicao{
+    font-weight: 550;
+    font-size: 25px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.tabela_equipe{
+    font-weight: 550;
+    color: gray;
+    font-family: Verdana;
+    text-align: left;
+}
+
+.tabela_direita{
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 700px
+}
+
+.tabela_icone_head{
+    color: rgb(175, 175, 175);
+    padding: 0 15px;
+    line-height: 10px;
+    font-weight: 530;
+    font-size: 20px;
+}
+
+.tabela_linha_direita{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    border-right: 0px solid gray;
+    border-bottom: solid 1px lightgray;
+    height: 55px;
+}
+
+.fundo{
+    background-color: rgb(240, 240, 240);
+}
+
+span{
+    font-family: Verdana;
+    margin-right: 10px;
+    line-height: 18px;
+}
+
+.texto_legenda{
+    font-family: Arial;
+    color: gray;
+}
+
+.icone{
+    border: 1px solid black;
+    border-radius: 4px;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 2px;
+}
